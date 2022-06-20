@@ -1,0 +1,16 @@
+export const environment = {
+  production: true,
+ //apiUrl: 'http://localhost:2855/efacture/',
+ urlFinal:'http://10.181.5.23:8686/BackEndEfactures/',
+//  apiUrl: 'http://10.181.5.23:8686/FinalEfactures/efacture/',
+//  UrlPay: 'http://10.181.5.23:8080/ABIMicroservices/serviceNMPF/',
+//  //UrlT24: 'http://10.181.5.23:8080/ABIMicroservices/services/refTrtT24',
+//  localAdress: 'http://10.181.5.23:8686/efacture/',
+//  local: 'http://10.181.5.23:8686',
+//  urlServeurApi:'http://10.181.5.23:8686/FinalEfacture/efacture',
+//  emailUrl:'http://10.181.5.23:8686/FinalEfactures/efacture/mails/email',
+//  UrlRacineT24:'http://10.181.5.23:8080/ABIMicroservices/services/clientInfT24/',
+//  //urlServeurApiuser:'http://localhost:2855' ,
+//  urlServeurApiuser:'http://10.181.5.23:8686/FinalEfactures' ,
+//  UrlT24: 'http://10.181.5.23:8686/FinalEfactures/Api/pay',
+}

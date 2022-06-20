@@ -1,0 +1,35 @@
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+
+
+/* Clear floats after image containers */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    margin-top: 150px;
+}
+
+.img-wrap,
+h1 {
+    text-align: center;
+}
+
+.img-wrap button img {
+    display: block;
+}
+
+.img-wrap>button {
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+    background-color: transparent;
+}
+
